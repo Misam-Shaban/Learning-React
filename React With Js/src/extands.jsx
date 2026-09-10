@@ -18,18 +18,29 @@ class StudentInfo {
 // Class Inheritance
 
 class CopyStudentInfo extends StudentInfo {
-    constructor(studentName,age, city,fullAddress){
-        super(studentName,age,city);
-        this.Studentfulladdress = fullAddress;
-    }
-} 
+  constructor(studentName, age, city, fullAddress) {
+    super(studentName, age, city);
+    this.Studentfulladdress = fullAddress;
+  }
 
-// New Student Data 
+  stdIdAndFullAddress() {
+    return `${this.getId()} And Address Of the Student: ${this.Studentfulladdress}`;
+  }
+}
+
+//  stdIdAndFullAddress();
+
+// New Student Data
 
 const std1 = new StudentInfo("Misam Shaban", 23, "Sahiwal", "BC210410014");
 const std2 = new StudentInfo("Ahmad Shaban", 18, "Sahiwal");
 const std3 = new StudentInfo("ALi", 24, "Lahore");
-const std4 = new CopyStudentInfo("Kamran",25, "Lahore","Cotton Research Station Lahore")
+const std4 = new CopyStudentInfo(
+  "Kamran",
+  25,
+  "Lahore",
+  "Cotton Research Station Lahore",
+);
 // StudentInfo.getId()
 function Extands() {
   return (
@@ -48,7 +59,7 @@ function Extands() {
           <h2>{std2.studentName}</h2>
           <p>Age: {std2.age}</p>
           <p>City: {std2.city}</p>
-        <p>ID: {std2.getId()}</p>
+          <p>ID: {std2.getId()}</p>
         </div>
         {/* Student 3 Data */}
         <br />
@@ -57,15 +68,14 @@ function Extands() {
         <p>Age: {std3.age}</p>
         <p>City: {std3.city}</p>
         <p>ID: {std3.getId()}</p>
-            <br />
+        <br />
         <h1 className="font-bold">Inherit Student Data...</h1>
         <div className="font-medium">
           <h2>{std4.studentName}</h2>
           <p>Age: {std4.age}</p>
           <p>City: {std4.city}</p>
-        <p>ID: {std4.getId()}</p>
-          <p>Full Address: {std4.Studentfulladdress}</p>
-
+          <p>ID: {std4.getId()}</p>
+          <p>ID & Address: {std4.stdIdAndFullAddress()}</p>
         </div>
       </div>
     </>

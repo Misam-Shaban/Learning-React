@@ -1,11 +1,13 @@
+import ArrowFuucWithThis from "./ArrowFunc.jsx";
 import Card from "./card.jsx";
 import Extands from "./extands.jsx";
 
 function App() {
   return (
    <>
-   <Card/>
+   {/* <Card/> */}
    <Extands/>
+   <ArrowFuucWithThis/>
    </>
   );
 };

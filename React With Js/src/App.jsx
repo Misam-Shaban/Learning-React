@@ -1,30 +1,21 @@
-class StudentInfo{
-  constructor(name,age,city){
-    this.studentName = name;
-    this.age = age;
-    this.city = city;
-  };
-};
+import Card from "./card";
 
-const std1 = new StudentInfo("Misam Shaban" , 23 , "Sahiwal");
-const std2 = new StudentInfo("Ahmad Shaban" , 18 , "Sahiwal" );
+// class StudentInfo{
+//   constructor(name,age,city){
+//     this.studentName = name;
+//     this.age = age;
+//     this.city = city;
+//   };
+// };
+// const std1 = new StudentInfo("Misam Shaban" , 23 , "Sahiwal");
+// const std2 = new StudentInfo("Ahmad Shaban" , 18 , "Sahiwal" );
 
 function App() {
   return (
    <>
-   <div>
-    <div className="text-2xl "> 
-       {Object.values(std2)}
-    </div>
-      
-   </div>
-
-   {Object.values(std1)}
-
-   
+   <Card/>
    </>
   );
 };
 
 export default App;
-

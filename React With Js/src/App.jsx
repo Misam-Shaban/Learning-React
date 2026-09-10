@@ -13,13 +13,15 @@ function App() {
   return (
    <>
    <div>
-    <div className="border-amber-300 text-2xl"> 
+    <div className="text-2xl "> 
        {Object.values(std2)}
     </div>
       
    </div>
 
    {Object.values(std1)}
+
+   
    </>
   );
 };

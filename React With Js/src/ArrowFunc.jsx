@@ -1,10 +1,9 @@
-function ArrowFuucWithThis(){
-    return(
-        <>
-
- </> 
-    );
+function ArrowFuucWithThis() {
+  return( 
+  <>
+  
+  </>
+  );
 };
-
 
 export default ArrowFuucWithThis;

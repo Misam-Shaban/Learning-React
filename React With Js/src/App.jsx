@@ -6,18 +6,14 @@ class StudentInfo{
   };
 };
 
-
 const std1 = new StudentInfo("Misam Shaban" , 23 , "Sahiwal");
 const std2 = new StudentInfo("Ahmad Shaban" , 18 , "Sahiwal" );
-
-
-
 
 function App() {
   return (
    <>
-   <div className="" >
-    <div className=""></div>
+   <div className=" border-amber-300" >
+    <div className=""> </div>
        {Object.values(std2)}
    </div>
 

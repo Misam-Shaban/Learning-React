@@ -1,9 +1,11 @@
 {
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
   "tailwindCSS.includeLanguages": {
     "javascript": "javascript",
     "javascriptreact": "javascriptreact"
-  },
-  "editor.quickSuggestions": {
-    "strings": true
   }
 }

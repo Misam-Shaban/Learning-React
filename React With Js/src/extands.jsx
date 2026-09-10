@@ -15,7 +15,7 @@ class StudentInfo {
 const std1 = new StudentInfo("Misam Shaban", 23, "Sahiwal", "BC210410014");
 const std2 = new StudentInfo("Ahmad Shaban", 18, "Sahiwal");
 const std3 = new StudentInfo("ALi", 24, "Lahore");
-StudentInfo.getId()
+// StudentInfo.getId()
 function Extands() {
   return (
     <>
@@ -41,7 +41,7 @@ function Extands() {
         <h2>{std3.studentName}</h2>
         <p>Age: {std3.age}</p>
         <p>City: {std3.city}</p>
-        <p>ID: {std3.StudentId}</p>
+        <p>ID: {std3.getId()}</p>
       </div>
     </>
   );

@@ -16,7 +16,11 @@ const std2 = new StudentInfo("Ahmad Shaban" , 18 , "Sahiwal" );
 function App() {
   return (
    <>
-   {Object.values(std2)}
+   <div className="" >
+    <div className=""></div>
+       {Object.values(std2)}
+   </div>
+
    {Object.values(std1)}
    </>
   );

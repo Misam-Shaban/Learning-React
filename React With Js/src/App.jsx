@@ -12,9 +12,11 @@ const std2 = new StudentInfo("Ahmad Shaban" , 18 , "Sahiwal" );
 function App() {
   return (
    <>
-   <div className=" border-amber-300" >
-    <div className=""> </div>
+   <div>
+    <div className="border-amber-300 text-2xl"> 
        {Object.values(std2)}
+    </div>
+      
    </div>
 
    {Object.values(std1)}

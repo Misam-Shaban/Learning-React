@@ -1,15 +1,18 @@
 // import ArrowFuucWithThis from "./ArrowFunc.jsx";
-// import Extands from "./extands.jsx";
-import Destructring from "../destructring.jsx";
+import Extands from "./src./extands.jsx";
+// import Destructring from "../destructring.jsx";
 // import Map from "./map.jsx";
+// import Spreed from "../spreed.jsx";
+
 function App() {
   return (
    <>
    {/* <Card/> */}
-   {/* <Extands/> */}
+   <Extands/>
    {/* <ArrowFuucWithThis/> */}
    {/* <Map/> */}
-   <Destructring/>
+   {/* <Destructring/> */}
+   {/* <Spreed/> */}
    </>
   );
 };

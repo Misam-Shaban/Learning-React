@@ -10,12 +10,12 @@ function App() {
   return (
    <>
    {/* <Card/> */}
-   <Extands/>
+   {/* <Extands/> */}
    {/* <ArrowFuucWithThis/> */}
    {/* <Map/> */}
    {/* <Destructring/> */}
    {/* <Spreed/> */}
-   <First/>
+   {/* <First/> */}
    <Newcard/>
    </>
   );

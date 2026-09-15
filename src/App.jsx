@@ -1,4 +1,5 @@
 // import ArrowFuucWithThis from "./ArrowFunc.jsx";
+import First from "./Components/first.jsx";
 import Extands from "./src./extands.jsx";
 // import Destructring from "../destructring.jsx";
 // import Map from "./map.jsx";
@@ -13,6 +14,7 @@ function App() {
    {/* <Map/> */}
    {/* <Destructring/> */}
    {/* <Spreed/> */}
+   <First/>
    </>
   );
 };

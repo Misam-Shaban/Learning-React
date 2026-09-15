@@ -1,6 +1,7 @@
 // import ArrowFuucWithThis from "./ArrowFunc.jsx";
-import First from "./Components/first.jsx";
-import Extands from "./src./extands.jsx";
+// import First from "./Components/first.jsx";
+import Newcard from "./Components/Newcard.jsx";
+// import Extands from "./src./extands.jsx";
 // import Destructring from "../destructring.jsx";
 // import Map from "./map.jsx";
 // import Spreed from "../spreed.jsx";
@@ -15,6 +16,7 @@ function App() {
    {/* <Destructring/> */}
    {/* <Spreed/> */}
    <First/>
+   <Newcard/>
    </>
   );
 };

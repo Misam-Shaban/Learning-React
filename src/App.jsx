@@ -16,7 +16,8 @@ function App() {
    {/* <Destructring/> */}
    {/* <Spreed/> */}
    {/* <First/> */}
-   <Newcard/>
+   <Newcard studentName="Misam Shaban" course="React Js" age={24} city="Lahore" aboutLeaning="Currently building projects with React JS" />
+   <Newcard studentName="Ahmad Shaban" course="JavaScript" age={18} city="Sahiwal" aboutLeaning="Currently Learning basics of JS"  />
    </>
   );
 };
